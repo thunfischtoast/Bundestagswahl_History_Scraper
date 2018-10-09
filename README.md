@@ -9,3 +9,6 @@ https://docs.scrapy.org/en/latest/intro/install.html
 To run the crawler and write the results into the file history.csv use:
 
     scrapy crawl buwahlhistory -o history.csv
+
+## Notes
+In the year 1949 there was only one vote (Erststimme). The rows for the second vote will be 0 in that year.
