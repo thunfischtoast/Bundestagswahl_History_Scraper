@@ -20,7 +20,7 @@ class BuwahlhistorySpider(scrapy.Spider):
     name = 'buwahlhistory'
     allowed_domains = ['bundeswahlleiter.de']
     old_format_pages = ['https://www.bundeswahlleiter.de/bundestagswahlen/' + str(x) + '.html' for x in [1949,1953,1957,1961,1965,1969,1972,1976,1980,1983,1987,1990,1994,1998,2002,2005,2009]]
-    new_format_pages = ['https://www.bundeswahlleiter.de/bundestagswahlen/' + str(x) + 'ergebnisse/bund-99.html' for x in [2013,2017]]
+    new_format_pages = ['https://www.bundeswahlleiter.de/bundestagswahlen/' + str(x) + '/ergebnisse/bund-99.html' for x in [2013,2017]]
     
     start_urls = old_format_pages + new_format_pages
 
