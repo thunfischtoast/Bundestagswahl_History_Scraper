@@ -12,3 +12,8 @@ To run the crawler and write the results into the file history.csv use:
 
 ## Notes
 In the year 1949 there was only one vote (Erststimme). The rows for the second vote will be 0 in that year.
+
+# Results
+The results can be exported into various formats. Here is an example of the csv export:
+
+![csv result example](readme_example.png)
