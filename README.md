@@ -2,7 +2,7 @@
 This Scrapy-project can be used to extract the historic vote results of the German federal elections (Bundestagswahlen) since 1949.
 
 ## Dependencies and installation
-The only dependency of this project is Scrapy itself. See the official documentation to see how it is installed:
+The only dependency of this project is Python 3 and Scrapy. See the official documentation to see how it is installed:
 https://docs.scrapy.org/en/latest/intro/install.html
 
 ## Usage
